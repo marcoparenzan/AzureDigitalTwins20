@@ -1,0 +1,3 @@
+select $dtId, $metadata.$model from digitaltwins where IS_PRIMITIVE($dtId) and IS_PRIMITIVE($metadata.$model)
+SELECT room, thermo FROM digitaltwins thermo JOIN room RELATED thermo.serves WHERE room.$dtId ='room0_2'
+select $dtId, $metadata.Temperature.lastUpdateTime from digitaltwins where IS_PRIMITIVE($metadata.Temperature.lastUpdateTime) AND IS_PRIMITIVE($dtId) AND $metadata.Temperature.lastUpdateTime<'2020-11-23T12:53'

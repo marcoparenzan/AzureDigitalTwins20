@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinApp.Server", "Server\TwinApp.Server.csproj", "{8E7C83F5-912E-45BD-AEB2-7A3C643A2C3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwinApp.Client", "Client\TwinApp.Client.csproj", "{F247D277-D714-455A-89A6-D766810EC365}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E7C83F5-912E-45BD-AEB2-7A3C643A2C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7C83F5-912E-45BD-AEB2-7A3C643A2C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7C83F5-912E-45BD-AEB2-7A3C643A2C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7C83F5-912E-45BD-AEB2-7A3C643A2C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F247D277-D714-455A-89A6-D766810EC365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F247D277-D714-455A-89A6-D766810EC365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F247D277-D714-455A-89A6-D766810EC365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F247D277-D714-455A-89A6-D766810EC365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B09E8A5-3779-46CC-8379-4D505C61E822}
+	EndGlobalSection
+EndGlobal

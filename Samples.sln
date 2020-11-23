@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.64
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Navigating", "Navigating\Navigating.csproj", "{5B9AC3CE-56C3-4C53-98B6-1FF0EC07D414}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creating", "Creating\Creating.csproj", "{978EFBFB-7228-4587-9FCF-4A4D0DBB6805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clear", "Service\Clear.csproj", "{46AEE4CF-CFC3-44E8-964C-91DF80B342C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B9AC3CE-56C3-4C53-98B6-1FF0EC07D414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B9AC3CE-56C3-4C53-98B6-1FF0EC07D414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B9AC3CE-56C3-4C53-98B6-1FF0EC07D414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B9AC3CE-56C3-4C53-98B6-1FF0EC07D414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{978EFBFB-7228-4587-9FCF-4A4D0DBB6805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978EFBFB-7228-4587-9FCF-4A4D0DBB6805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978EFBFB-7228-4587-9FCF-4A4D0DBB6805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978EFBFB-7228-4587-9FCF-4A4D0DBB6805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AEE4CF-CFC3-44E8-964C-91DF80B342C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AEE4CF-CFC3-44E8-964C-91DF80B342C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AEE4CF-CFC3-44E8-964C-91DF80B342C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AEE4CF-CFC3-44E8-964C-91DF80B342C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B09E8A5-3779-46CC-8379-4D505C61E822}
+	EndGlobalSection
+EndGlobal

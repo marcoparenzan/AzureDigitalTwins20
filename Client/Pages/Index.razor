@@ -1,0 +1,48 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<h1>Azure Digital Twins Demo</h1>
+
+<p></p>
+
+@if (items == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Text</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in items)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.ModelId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    public class Item
+    {
+        public string Id { get; set; }
+        public string ModelId { get; set; }
+    }
+
+    Item[] items;
+
+    protected override async Task OnInitializedAsync()
+    {
+        items = await Http.GetFromJsonAsync<Item[]>("Twins/All");
+    }
+
+}
