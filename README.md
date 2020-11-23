@@ -1,1 +1,1 @@
-# azure-digital-twins-20
+# Azure Digital Twins 2.0
